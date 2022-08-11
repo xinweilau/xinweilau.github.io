@@ -4,6 +4,16 @@
 
     <title>{{ .Site.Title }}</title>
 
+    <meta name="title" property="og:title" content="{{ .Site.Title }}" />
+    <meta name="description" property="og:description" content="{{ .Site.Params.description }}" />
+
+    <link rel="shortcut icon" href="favicon.svg" />
+    <meta
+        name="image"
+        property="og:image"
+        content="https://live.staticflickr.com/65535/52278999235_d444f4252e_b.jpg"
+    />
+
     {{ $styles := resources.Get "js/index.js" | minify }}
     <script
         type="text/javascript"
