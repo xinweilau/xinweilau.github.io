@@ -1,0 +1,8 @@
+baseURL: https://example.com/
+languageCode: en-us
+title: Your Name Here
+theme: simple-dev-portfolio
+
+params:
+  description: Sodales ridiculus netus malesuada sapien ornare mattis
+  preview_url: https://example.com/
